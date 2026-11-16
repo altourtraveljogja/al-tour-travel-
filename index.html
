@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL Tour & Travel - Jelajahi Jogja</title>
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif;}
+        body {line-height: 1.6; color: #333;}
+        header {background: linear-gradient(135deg, #0a2463 0%, #1e5a9c 100%); color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;}
+        .logo {font-size: 1.5rem; font-weight: bold; color: #f4c542;}
+        .hero {background: linear-gradient(rgba(10, 36, 99, 0.85), rgba(30, 90, 156, 0.75)), url('https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200') center/cover; min-height: 85vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white; padding: 2rem 5%;}
+        .hero h1 {font-size: 2.5rem; color: #f4c542; margin-bottom: 1rem;}
+        .hero h2 {font-size: 1.5rem; margin-bottom: 1.5rem;}
+        .hero p {font-size: 1.1rem; max-width: 700px; margin-bottom: 2rem;}
+        .btn-wa {background: #25d366; color: white; padding: 1rem 2rem; font-size: 1.1rem; font-weight: bold; border-radius: 50px; text-decoration: none; transition: transform 0.3s;}
+        .btn-wa:hover {transform: scale(1.05);}
+        section {padding: 3rem 5%;}
+        h2.section-title {text-align: center; font-size: 1.8rem; color: #0a2463; margin-bottom: 2rem; position: relative;}
+        h2.section-title::after {content: ''; width: 70px; height: 4px; background: #f4c542; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%);}
+        .services {display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem;}
+        .service-card {background: #f9f9f9; padding: 1.5rem; border-radius: 10px; text-align: center; box-shadow: 0 3px 10px rgba(0,0,0,0.08);}
+        .service-card h3 {color: #0a2463; margin: 0.8rem 0; font-size: 1.1rem;}
+        .vehicles {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;}
+        .vehicle-card {border: 2px solid #eee; border-radius: 10px; overflow: hidden; text-align: center; background: white;}
+        .vehicle-card h3 {background: #0a2463; color: #f4c542; padding: 0.8rem; font-size: 1.1rem;}
+        .vehicle-card p {padding: 1rem;}
+        .features {background: #f0f4f8;}
+        .features-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; text-align: center;}
+        .feature-item h4 {color: #0a2463; margin-bottom: 0.5rem; font-size: 0.95rem;}
+        .cta {background: linear-gradient(135deg, #0a2463 0%, #1e5a9c 100%); color: white; text-align: center; padding: 3rem 5%;}
+        .cta h2 {font-size: 1.6rem; margin-bottom: 1rem;}
+        footer {background: #222; color: white; text-align: center; padding: 1.5rem; font-size: 0.9rem;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">AL TOUR & TRAVEL</div>
+        <div>Jogja — Selalu Punya Cerita Indah</div>
+    </header>
+
+    <div class="hero">
+        <h1>AL TOUR & TRAVEL</h1>
+        <h2>Jelajahi Jogja, Rasakan Pengalaman Terbaik</h2>
+        <p>Rental Mobil Plus Driver — Eksplorasi Destinasi Wisata dengan Nyaman, Aman, dan Terpercaya</p>
+        <a href="https://wa.me/6282142639206" class="btn-wa">📞 Hubungi Sekarang via WhatsApp</a>
+    </div>
+
+    <section>
+        <h2 class="section-title">Layanan Kami</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>🏙️ City Tour</h3>
+                <p>Wisata Kota & Sejarah Yogyakarta</p>
+            </div>
+            <div class="service-card">
+                <h3>👤 Tour Privat</h3>
+                <p>Sesuai Kebutuhan Anda & Keluarga</p>
+            </div>
+            <div class="service-card">
+                <h3>💼 Tour Business</h3>
+                <p>Perjalanan Dinas & Meeting</p>
+            </div>
+            <div class="service-card">
+                <h3>✈️ Antar Jemput Bandara</h3>
+                <p>Tepat Waktu & Aman</p>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #fafafa;">
+        <h2 class="section-title">Armada Kami</h2>
+        <div class="vehicles">
+            <div class="vehicle-card">
+                <h3>Toyota Avanza</h3>
+                <p>✅ Unit Terawat & Bersih<br>✅ Kapasitas 5 Penumpang<br>✅ Nyaman untuk Keluarga</p>
+            </div>
+            <div class="vehicle-card">
+                <h3>Toyota Innova</h3>
+                <p>✅ Unit Terawat & Bersih<br>✅ Kapasitas 7 Penumpang<br>✅ Lebih Luas & Mewah</p>
+            </div>
+            <div class="vehicle-card">
+                <h3>Toyota HiAce Premio</h3>
+                <p>✅ Unit Terawat & Bersih<br>✅ Kapasitas 12–14 Penumpang<br>✅ Cocok untuk Rombongan</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">Mengapa Memilih Kami?</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <h4>🛡️ Unit Terawat & Bersih</h4>
+            </div>
+            <div class="feature-item">
+                <h4>👨‍✈️ Driver Profesional</h4>
+            </div>
+            <div class="feature-item">
+                <h4>💰 Harga Transparan</h4>
+            </div>
+            <div class="feature-item">
+                <h4>👍 Pelayanan Ramah 24 Jam</h4>
+            </div>
+        </div>
+    </section>
+
+    <div class="cta">
+        <h2>Mulai Perjalanan Anda Bersama Kami!</h2>
+        <p style="font-size: 1rem; margin-bottom: 1.5rem;">Mudah • Aman • Nyaman</p>
+        <a href="https://wa.me/6282142639206" class="btn-wa">📲 WhatsApp: 0821 4263 9206</a>
+    </div>
+
+    <footer>
+        <p>© 2026 AL Tour & Travel — Jelajahi Jogja, Rasakan Pengalaman Terbaik</p>
+        <p>WhatsApp: 0821 4263 9206 | Yogyakarta, Indonesia</p>
+    </footer>
+</body>
+</html>
